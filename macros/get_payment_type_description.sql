@@ -1,4 +1,5 @@
 {% macro get_payment_type_description(payment_type) -%}
+    
     case cast({{ "payment_type" }} as INTEGER)
         when 1 then 'Credit Card'
         when 2 then 'Cash'
