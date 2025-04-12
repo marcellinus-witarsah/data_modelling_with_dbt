@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: kestra-sandbox-455814
+    schema: kestra
+    
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
