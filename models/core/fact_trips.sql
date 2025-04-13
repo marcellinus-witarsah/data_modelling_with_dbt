@@ -37,6 +37,7 @@ select
     tripdata.passenger_count,
     tripdata.trip_distance,
     tripdata.trip_type,
+    tripdata.service_type,
 
 
     -- payment info
